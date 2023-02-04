@@ -1,0 +1,86 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+.hour {
+    position: absolute;
+    width: 1.8%;
+    height: 22%;
+    background-color: black;
+    top: 29%;
+    border-radius: 11px;
+    left: 49%;
+    transform-origin: bottom;
+}
+
+.minute {
+    position: absolute;
+    background-color: red;
+    height: 32%;
+    width: 1.5%;
+    top: 19%;
+    border-radius: 9px;
+    left: 49%;
+    transform-origin: bottom;
+
+}
+
+.second {
+    position: absolute;
+    background-color: green;
+    height: 38%;
+    width: 0.5%;
+    left: 49.4%;
+    border-radius: 24px;
+    top: 13%;
+    transform-origin: bottom;
+
+} */
+#container{  
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin-top: -28px;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
+}
